@@ -1,0 +1,404 @@
+/* Navbar.css */
+
+.navbar {
+  width: 100%;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  background-color:black;
+  border-bottom: 0px solid black;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color:white;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 30px;
+  background-color: #ddd;
+  margin: 0 15px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  margin-left:5px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 5px;
+  margin-left:5px;
+  height:20px;
+  box-decoration-break: rombu;
+}
+
+.search-bar button {
+  padding: 5px;
+  margin-left:1px;
+  height:30px;
+}
+
+.info,
+.currency,
+.auth,
+.cart {
+  margin-left: 15px;
+  cursor: pointer;
+  color:white;
+}
+
+.welcome-dropdown {
+  position: absolute;
+  background-color: grey;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+}
+
+.welcome-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.welcome-dropdown div {
+  padding: 10px 0;
+}
+
+.welcome-dropdown hr {
+  margin: 10px 0;
+}
+
+ .menu-box {
+  display: flex;
+  align-items: center;
+  
+}
+
+.menu-icon {
+  font-size: 1.5em;
+  margin-right: 15px;
+  color: grey;
+} 
+
+.dropdown {
+  position: relative;
+  color:white;
+}
+
+.dropbtn,
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-content,
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color:white;
+  
+  
+}
+
+.dropdown-content a,
+.dropdown-menu .dropdown-item {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:hover .dropdown-menu,
+.dropdown .dropbtn:hover + .dropdown-content,
+.dropdown .dropdown-toggle:hover + .dropdown-menu {
+  display: block;
+}
+
+.nav-link {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+   
+  border-color: red;
+  background-color: grey;
+  clip-path: square(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  transition: background-color 0.3s;
+  height: 25px;
+}
+
+.dropdown-toggle{
+  color :white;
+}
+.dropdown-menu{
+background-color: grey;
+}
+
+
+
+
+
+/* Add this CSS to your stylesheet */
+
+.container .dropdown .dropdown-content {
+  width: 300px; /* Increase the width as needed */
+  background-color:lightsalmon; /* Change the background color as needed */
+  padding: 10px; /* Add some padding if desired */
+  border: 1px solid #ccc; /* Add a border if desired */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better visibility */
+}
+
+.container .dropdown .dropdown-content a {
+  color: black; /* Change the text color as needed */
+  padding: 8px 16px; /* Adjust padding for each link */
+  text-decoration: none; /* Remove underline from links */
+  display: block; /* Ensure each link takes up full width */
+}
+
+.container .dropdown .dropdown-content a:hover {
+  background-color: lightcoral; /* Change the hover background color as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .welcome-dropdown{
+  width:50%;
+  color:black;
+  background-color:lightsalmon;
+} 
+
+
+
+
+
+
+
+
+
+
+/* Add this CSS to your stylesheet */
+
+.dropdown .dropdown-menu {
+  width: 300px; /* Increase the width as needed */
+  background-color: #f0f0f0; /* Change the background color as needed */
+  padding: 10px; /* Add some padding if desired */
+  border: 1px solid #ccc; /* Add a border if desired */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better visibility */
+  position: absolute; /* Ensure it stays in place */
+  top: 100%; /* Position it directly below the toggle */
+  left: 0; /* Align it to the left of the toggle */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.dropdown .dropdown-item {
+  color: #333; /* Change the text color as needed */
+  padding: 8px 16px; /* Adjust padding for each item */
+  text-decoration: none; /* Remove underline from items */
+  display: block; /* Ensure each item takes up full width */
+  margin-left:50;
+}
+
+.dropdown .dropdown-item:hover {
+  background-color: orangered; /* Change the hover background color as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
